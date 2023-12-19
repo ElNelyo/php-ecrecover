@@ -2,7 +2,7 @@
 require_once 'Crypto/PointMathGMP.class.php';
 require_once 'Crypto/SECp256k1.class.php';
 require_once 'Crypto/Signature.class.php';
-require_once './vendor/autoload.php';
+//require_once './vendor/autoload.php';
 use kornrunner\Keccak;
 
 if (! function_exists('personal_ecRecover')) {
